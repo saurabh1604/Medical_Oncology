@@ -77,41 +77,55 @@ segments = {
          "- Changes in bowel or bladder habits\n"
          "- Shortness of breath or difficulty breathing\n"
          "- Unexplained loss of appetite or nausea\n\n"
-         "If you or someone you know is experiencing any of these symptoms persistently, it is important to seek medical attention."),
+         "If you or someone you know is experiencing any of these symptoms, it is important to seek medical attention immediately."),
 
         ("patient", "How can I prevent cancer?",
-         "There are several ways to reduce your risk of developing cancer. While not all cancers are preventable, healthy lifestyle choices make a big difference:\n"
-         "- Quit smoking and avoid secondhand smoke.\n"
-         "- Maintain a healthy weight.\n"
-         "- Eat a balanced diet rich in fruits, vegetables, whole grains, and lean proteins.\n"
-         "- Exercise regularly.\n"
-         "- Limit alcohol consumption.\n"
-         "- Avoid exposure to harmful chemicals and excessive radiation.\n"
-         "- Get vaccinated for certain cancer-causing viruses, such as the human papillomavirus (HPV) and Hepatitis B.\n"
-         "- Practice sun protection (using sunscreen, wearing hats) and avoid excessive sun exposure.\n\n"
+         "There are several ways to reduce your risk of developing cancer:\n"
+         "- Quit smoking and avoid secondhand smoke\n"
+         "- Maintain a healthy weight\n"
+         "- Eat a balanced diet rich in fruits, vegetables, whole grains, and lean proteins\n"
+         "- Exercise regularly\n"
+         "- Limit alcohol consumption\n"
+         "- Avoid exposure to harmful chemicals and radiation\n"
+         "- Get vaccinated for certain cancers, such as the human papillomavirus (HPV) vaccine\n"
+         "- Practice sun protection and avoid excessive sun exposure\n\n"
          "It is also important to undergo regular cancer screenings, such as mammograms, colonoscopies, and prostate exams, as recommended by your healthcare provider."),
 
         ("patient", "What are the different types of cancer?",
-         "There are over 100 different types of cancer, each with its own unique characteristics and treatment options. Cancers are typically named for the organs or tissues where the cancers form. Some common types include:\n"
+         "There are over 100 different types of cancer, each with its own unique characteristics and treatment options. Some common types of cancer include:\n"
          "- Breast cancer\n"
          "- Prostate cancer\n"
          "- Colorectal cancer (colon and rectal cancer)\n"
          "- Lung cancer\n"
-         "- Skin cancer (including melanoma)\n"
+         "- Skin cancer\n"
          "- Brain cancer\n"
-         "- Blood cancers (such as Leukemia and Lymphoma)\n\n"
-         "Each type of cancer has its own risk factors, symptoms, and specific treatment options."),
+         "- Leukemia\n\n"
+         "Each type of cancer has its own risk factors, symptoms, and treatment options. It is important to consult with a healthcare professional for personalized information and guidance."),
+
+        ("patient", "How long does cancer treatment typically take?",
+         "The duration of cancer treatment can vary depending on the type and stage of cancer, as well as the individual's overall health and response to treatment. Some types of cancer may require surgery, chemotherapy, radiation therapy, or a combination of these treatments. The length of treatment can range from a few weeks to several months or even years.\n\n"
+         "It is important to work closely with your healthcare team to determine the most appropriate treatment plan and to monitor your progress throughout the treatment process."),
 
         ("patient", "How can I support someone who is undergoing cancer treatment?",
          "Supporting someone who is undergoing cancer treatment can be a challenging but rewarding experience. Here are some ways to provide emotional and practical support:\n"
-         "- Listen without judgment and let them lead the conversation.\n"
-         "- Offer encouragement and positive words, but avoid toxic positivity (don't force them to be 'strong' all the time).\n"
-         "- Be present and attentive.\n"
-         "- Help with daily specific tasks and errands (e.g., \"Can I bring dinner on Tuesday?\" rather than \"Let me know if you need anything\").\n"
-         "- Encourage self-care and relaxation.\n"
-         "- Provide emotional support and help find resources for coping with stress and anxiety.\n"
-         "- Offer to drive them to appointments or take notes during doctor visits.\n\n"
-         "Remember, everyone's experience with cancer is unique, and it is essential to be patient, compassionate, and understanding.")
+         "- Listen without judgment\n"
+         "- Offer encouragement and positive words\n"
+         "- Be present and attentive\n"
+         "- Help with daily tasks and errands\n"
+         "- Encourage self-care and relaxation\n"
+         "- Provide emotional support and resources for coping with stress and anxiety\n"
+         "- Encourage regular check-ins with healthcare professionals\n\n"
+         "Remember, everyone's experience with cancer is unique, and it is essential to be patient, compassionate, and understanding."),
+
+        ("patient", "How can I stay informed about cancer research and treatment advancements?",
+         "Staying informed about cancer research and treatment advancements is crucial for individuals and their loved ones. Here are some ways to stay up-to-date:\n"
+         "- Follow reputable cancer organizations and organizations dedicated to cancer research and advocacy\n"
+         "- Subscribe to newsletters and publications related to cancer\n"
+         "- Attend cancer support groups and events\n"
+         "- Connect with healthcare professionals and researchers in the field\n"
+         "- Participate in clinical trials and studies\n"
+         "- Engage in online forums and social media communities\n\n"
+         "By staying informed, you can better understand the latest research and treatment options, and make informed decisions about your health and well-being.")
     ]
 }
 
