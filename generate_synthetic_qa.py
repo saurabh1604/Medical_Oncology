@@ -1,6 +1,6 @@
 import csv
 
-# Define Unique Segments with High-Quality, Structured Answers
+# Massive Hardcoded Unique Batch (Expanded Categories)
 segments = {
     "General Cancer Knowledge": [
         ("patient", "What are the symptoms of cancer?",
@@ -53,7 +53,24 @@ segments = {
          "- **T (Tumor):** Refers to the size, extent, and invasion depth of the primary tumor (T1-T4, with T0 indicating no evidence of primary tumor, and Tis indicating carcinoma in situ).\n"
          "- **N (Nodes):** Describes the degree of regional lymph node involvement (N0-N3, reflecting the number or location of affected nodes).\n"
          "- **M (Metastasis):** Indicates whether distant metastasis is present (M0 means none, M1 means metastasis is present).\n\n"
-         "These values are combined to assign an overall stage grouping (Stage I through IV), which dictates the prognostic outlook and therapeutic strategy.")
+         "These values are combined to assign an overall stage grouping (Stage I through IV), which dictates the prognostic outlook and therapeutic strategy."),
+        ("patient", "What does it mean if my cancer is metastatic?",
+         "When cancer is described as 'metastatic,' it means that the cancer cells have spread from the original (primary) site where they first formed to other parts of the body. \n"
+         "- This spread occurs when cancer cells travel through the bloodstream or the lymphatic system.\n"
+         "- Metastatic cancer has the same name and the same type of cancer cells as the original, primary cancer. For example, breast cancer that spreads to the lungs is called metastatic breast cancer, not lung cancer.\n"
+         "- Treatment for metastatic cancer often involves systemic therapies (like chemotherapy, hormone therapy, or immunotherapy) that can reach cancer cells throughout the entire body."),
+        ("patient", "What is a biopsy and why is it necessary?",
+         "A biopsy is a medical procedure in which a doctor removes a small sample of tissue or cells from your body so they can be examined under a microscope. It is necessary for several critical reasons:\n"
+         "- **Confirmation:** It is the only definitive way to diagnose most types of cancer.\n"
+         "- **Cancer Typing:** It allows pathologists to determine exactly what type of cancer cells are present.\n"
+         "- **Grading:** It helps determine how abnormal the cells look and how quickly the cancer is likely to grow and spread.\n"
+         "- **Receptor Testing:** The sample can be tested for specific genetic mutations or hormone receptors, which is crucial for determining if targeted therapies or immunotherapies will be effective."),
+        ("professional", "How are tumor markers utilized in clinical oncology?",
+         "Tumor markers are biological substances, typically proteins, produced by cancer cells or by the body in response to cancer. They are utilized in several clinical contexts:\n"
+         "- **Screening and Diagnosis:** While rarely diagnostic on their own due to low specificity, they can aid in diagnosis (e.g., PSA for prostate cancer).\n"
+         "- **Prognosis:** Elevated baseline levels may correlate with greater disease burden or more aggressive histology.\n"
+         "- **Monitoring Treatment Response:** Serial measurements are invaluable for assessing the efficacy of systemic therapy. A consistent decline suggests response, while a rising trend may indicate resistance or disease progression (e.g., CA-125 in ovarian cancer, CEA in colorectal cancer).\n"
+         "- **Detecting Recurrence:** Rising marker levels after curative-intent therapy can often precede radiographic or clinical recurrence by months.")
     ],
     "Chemotherapy Side Effects": [
         ("patient", "What should I do if I get a fever during my chemotherapy?",
@@ -94,7 +111,22 @@ segments = {
          "- Neutropenia: Often severe, with a typical nadir occurring between days 10 and 14 of the cycle. Prophylactic use of G-CSF (granulocyte colony-stimulating factor) is often considered depending on the patient's overall risk profile and age.\n"
          "- Anemia: Cumulative and may require red blood cell transfusions if symptomatic or if hemoglobin drops significantly.\n"
          "- Thrombocytopenia: Less commonly dose-limiting compared to neutropenia, but platelet counts should be carefully monitored prior to each cycle.\n\n"
-         "Careful monitoring with complete blood counts (CBC) with differential is standard practice before administering subsequent cycles.")
+         "Careful monitoring with complete blood counts (CBC) with differential is standard practice before administering subsequent cycles."),
+        ("patient", "Why do my hands and feet tingle after receiving certain chemotherapies?",
+         "Tingling, numbness, or pain in the hands and feet is a condition called peripheral neuropathy. It is caused by certain chemotherapy drugs (like taxanes, platinums, and vinca alkaloids) damaging the peripheral nerves. To manage and monitor this:\n"
+         "- Report any tingling, numbness, burning, or weakness to your oncologist immediately. They may need to adjust your chemo dose to prevent permanent damage.\n"
+         "- Be very careful with sharp objects (like knives) and avoid walking barefoot to prevent injuries you might not feel.\n"
+         "- Wear comfortable, well-fitting shoes.\n"
+         "- Use gloves when handling cold objects if you are receiving drugs like oxaliplatin, which can cause severe cold sensitivity in the nerves.\n"
+         "- Your doctor may prescribe medications (such as duloxetine or gabapentin) to help manage severe nerve pain."),
+        ("patient", "How can I treat mouth sores caused by my cancer treatment?",
+         "Mouth sores (mucositis) are a painful side effect of some chemotherapy and radiation treatments. To help manage and heal them:\n"
+         "- Maintain excellent oral hygiene. Gently brush your teeth using a soft-bristled toothbrush after every meal and at bedtime.\n"
+         "- Rinse your mouth 4 to 6 times a day with a mixture of baking soda and salt in warm water (1/4 tsp each in 8 oz water). Avoid mouthwashes containing alcohol.\n"
+         "- Eat soft, bland, and moist foods (like mashed potatoes, scrambled eggs, or yogurt).\n"
+         "- Avoid spicy, acidic, or very hot foods and drinks, as they can burn the sores.\n"
+         "- Sucking on ice chips during the administration of certain chemotherapy drugs (like 5-FU) can sometimes help prevent mouth sores.\n"
+         "- Ask your doctor for prescription 'magic mouthwash' to numb the pain before you eat.")
     ],
     "Targeted Therapies and Immunotherapy": [
         ("patient", "What are the common side effects of Darzalex (daratumumab)?",
@@ -126,7 +158,32 @@ segments = {
          "- **Grade 1:** Generally, continue immunotherapy with close monitoring; symptomatic treatment may be provided.\n"
          "- **Grade 2:** Withhold the checkpoint inhibitor. Initiate systemic corticosteroids (e.g., prednisone 0.5-1 mg/kg/day). Resume immunotherapy only when symptoms resolve to Grade 1 or less and steroids are tapered.\n"
          "- **Grade 3/4:** Permanently discontinue the checkpoint inhibitor. Initiate high-dose systemic corticosteroids (e.g., methylprednisolone 1-2 mg/kg/day IV). If symptoms are refractory to steroids after 48-72 hours, consider secondary immunosuppressive agents (e.g., infliximab for colitis, mycophenolate mofetil for hepatitis).\n\n"
-         "Early recognition and prompt immunosuppression are critical for resolving severe irAEs.")
+         "Early recognition and prompt immunosuppression are critical for resolving severe irAEs."),
+        ("patient", "Why is my doctor testing my tumor for PD-L1 expression?",
+         "Testing a tumor for PD-L1 (Programmed Death-Ligand 1) expression helps your oncologist determine if you are a good candidate for certain types of immunotherapy called checkpoint inhibitors (such as Keytruda or Opdivo).\n"
+         "- PD-L1 is a protein that some cancer cells use to 'hide' from your body's immune system.\n"
+         "- If your tumor has high levels of PD-L1, it means the cancer is relying heavily on this 'hiding' mechanism.\n"
+         "- Checkpoint inhibitor drugs work by blocking PD-L1, effectively exposing the cancer cells so your immune system can attack them.\n"
+         "- Tumors with high PD-L1 expression generally respond better to these specific immunotherapies, allowing your doctor to tailor your treatment plan effectively.")
+    ],
+    "Radiation Therapy": [
+        ("patient", "Does radiation therapy make me radioactive?",
+         "For the vast majority of external beam radiation treatments, the answer is no. \n"
+         "- External beam radiation is like having an X-ray; the radiation passes through your body to target the tumor, but it does not stay inside you. You are perfectly safe to be around pregnant women and children immediately after your session.\n"
+         "- However, if you are receiving internal radiation (brachytherapy) or systemic radiation (like radioactive iodine for thyroid cancer), radioactive materials are placed inside your body.\n"
+         "- In those specific internal cases, your body may give off a small amount of radiation for a short time, and your medical team will give you specific safety precautions (like keeping a certain distance from others) until the radiation levels drop."),
+        ("patient", "What skin changes should I expect during radiation therapy?",
+         "Radiation dermatitis is a common side effect where the skin in the treatment area becomes irritated. You may experience:\n"
+         "- Redness, similar to a mild or severe sunburn.\n"
+         "- Dryness, itching, and peeling (dry desquamation).\n"
+         "- In more severe cases, the skin may blister or weep fluid (moist desquamation).\n"
+         "- The treated skin may eventually become darker or tanned.\n\n"
+         "To care for your skin, wash the area gently with warm water and mild, unscented soap. Pat dry, avoid tight clothing over the area, and only use lotions or creams (like Aquaphor or calendula cream) that are explicitly approved by your radiation oncologist."),
+        ("professional", "What are the indications for stereotactic body radiation therapy (SBRT) in early-stage non-small cell lung cancer (NSCLC)?",
+         "SBRT (also known as SABR) is primarily indicated for patients with medically inoperable, early-stage (Stage I or node-negative Stage II) non-small cell lung cancer.\n"
+         "- It is highly effective for peripheral tumors typically < 5 cm in diameter.\n"
+         "- It delivers highly conformal, ablative doses of radiation in a hypofractionated schedule (typically 3 to 5 fractions).\n"
+         "- SBRT has shown excellent local control rates (often >90% at 3 years) that rival surgical outcomes for this specific patient population, though it carries risks of radiation pneumonitis or chest wall toxicity depending on tumor location.")
     ],
     "Nutrition and Diet during Treatment": [
         ("patient", "What should I eat when I have no appetite due to radiation?",
@@ -178,7 +235,15 @@ segments = {
          "- **Reassure them:** Children often worry that they caused the illness or that they can 'catch' it. Clarify that cancer is not contagious and it is not their fault.\n"
          "- **Explain the treatment plan:** Let them know what to expect regarding physical changes (like hair loss or fatigue) or disruptions to their daily routine.\n"
          "- **Encourage questions:** Let them know it is okay to feel sad, angry, or scared, and that they can ask you anything.\n\n"
-         "Consider utilizing resources from hospital social workers or child life specialists, who are trained to help families navigate these conversations.")
+         "Consider utilizing resources from hospital social workers or child life specialists, who are trained to help families navigate these conversations."),
+        ("patient", "I feel incredibly anxious before every scan (scanxiety). How can I cope?",
+         "'Scanxiety'—the severe anxiety leading up to medical imaging and waiting for results—is a highly common and valid experience for cancer patients and survivors. Coping strategies include:\n"
+         "- Communicate with your medical team. Ask exactly when and how you will receive your results so you aren't waiting by the phone unnecessarily.\n"
+         "- Schedule scans early in the morning or early in the week to reduce the waiting time for results.\n"
+         "- Bring a trusted friend or family member to the appointment for distraction and support.\n"
+         "- Practice mindfulness, deep breathing exercises, or meditation in the waiting room.\n"
+         "- Plan an enjoyable distraction or a small reward for immediately after the scan is completed.\n"
+         "- Speak to a counselor or join a support group where you can share these feelings with others who understand exactly what you are going through.")
     ]
 }
 

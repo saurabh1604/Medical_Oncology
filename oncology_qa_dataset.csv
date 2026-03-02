@@ -105,6 +105,35 @@ These values are combined to assign an overall stage grouping (Stage I through I
 - **M (Metastasis):** Indicates whether distant metastasis is present (M0 means none, M1 means metastasis is present).
 
 These values are combined to assign an overall stage grouping (Stage I through IV), which dictates the prognostic outlook and therapeutic strategy."
+General Cancer Knowledge,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",What does it mean if my cancer is metastatic?,"Retrieved Medical Guidelines for General Cancer Knowledge: When cancer is described as 'metastatic,' it means that the cancer cells have spread from the original (primary) site where they first formed to other parts of the body.
+- This spread occurs when cancer cells travel through the bloodstream or the lymphatic system.
+- Metastatic cancer has the same name and the same type of cancer cells as the original, primary cancer. For example, breast cancer that spreads to the lungs is called metastatic breast cancer, not lung cancer.
+- Treatment for metastatic cancer often involves systemic therapies (like chemotherapy, hormone therapy, or immunotherapy) that can reach cancer cells throughout the entire body.","When cancer is described as 'metastatic,' it means that the cancer cells have spread from the original (primary) site where they first formed to other parts of the body.
+- This spread occurs when cancer cells travel through the bloodstream or the lymphatic system.
+- Metastatic cancer has the same name and the same type of cancer cells as the original, primary cancer. For example, breast cancer that spreads to the lungs is called metastatic breast cancer, not lung cancer.
+- Treatment for metastatic cancer often involves systemic therapies (like chemotherapy, hormone therapy, or immunotherapy) that can reach cancer cells throughout the entire body.
+
+*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
+General Cancer Knowledge,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",What is a biopsy and why is it necessary?,"Retrieved Medical Guidelines for General Cancer Knowledge: A biopsy is a medical procedure in which a doctor removes a small sample of tissue or cells from your body so they can be examined under a microscope. It is necessary for several critical reasons:
+- **Confirmation:** It is the only definitive way to diagnose most types of cancer.
+- **Cancer Typing:** It allows pathologists to determine exactly what type of cancer cells are present.
+- **Grading:** It helps determine how abnormal the cells look and how quickly the cancer is likely to grow and spread.
+- **Receptor Testing:** The sample can be tested for specific genetic mutations or hormone receptors, which is crucial for determining if targeted therapies or immunotherapies will be effective.","A biopsy is a medical procedure in which a doctor removes a small sample of tissue or cells from your body so they can be examined under a microscope. It is necessary for several critical reasons:
+- **Confirmation:** It is the only definitive way to diagnose most types of cancer.
+- **Cancer Typing:** It allows pathologists to determine exactly what type of cancer cells are present.
+- **Grading:** It helps determine how abnormal the cells look and how quickly the cancer is likely to grow and spread.
+- **Receptor Testing:** The sample can be tested for specific genetic mutations or hormone receptors, which is crucial for determining if targeted therapies or immunotherapies will be effective.
+
+*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
+General Cancer Knowledge,professional,"You are a specialized medical AI assistant designed for oncology professionals. Provide precise, comprehensive, and evidence-based answers using medical terminology based on the retrieved context.",How are tumor markers utilized in clinical oncology?,"Retrieved Medical Guidelines for General Cancer Knowledge: Tumor markers are biological substances, typically proteins, produced by cancer cells or by the body in response to cancer. They are utilized in several clinical contexts:
+- **Screening and Diagnosis:** While rarely diagnostic on their own due to low specificity, they can aid in diagnosis (e.g., PSA for prostate cancer).
+- **Prognosis:** Elevated baseline levels may correlate with greater disease burden or more aggressive histology.
+- **Monitoring Treatment Response:** Serial measurements are invaluable for assessing the efficacy of systemic therapy. A consistent decline suggests response, while a rising trend may indicate resistance or disease progression (e.g., CA-125 in ovarian cancer, CEA in colorectal cancer).
+- **Detecting Recurrence:** Rising marker levels after curative-intent therapy can often precede radiographic or clinical recurrence by months.","Tumor markers are biological substances, typically proteins, produced by cancer cells or by the body in response to cancer. They are utilized in several clinical contexts:
+- **Screening and Diagnosis:** While rarely diagnostic on their own due to low specificity, they can aid in diagnosis (e.g., PSA for prostate cancer).
+- **Prognosis:** Elevated baseline levels may correlate with greater disease burden or more aggressive histology.
+- **Monitoring Treatment Response:** Serial measurements are invaluable for assessing the efficacy of systemic therapy. A consistent decline suggests response, while a rising trend may indicate resistance or disease progression (e.g., CA-125 in ovarian cancer, CEA in colorectal cancer).
+- **Detecting Recurrence:** Rising marker levels after curative-intent therapy can often precede radiographic or clinical recurrence by months."
 Chemotherapy Side Effects,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",What should I do if I get a fever during my chemotherapy?,"Retrieved Medical Guidelines for Chemotherapy Side Effects: Experiencing a fever during chemotherapy can be a sign of a serious infection, especially if your white blood cell count is low (neutropenia). Here is what you should do:
 - Check your temperature if you feel warm, chilled, or unwell.
 - A temperature of 100.4°F (38°C) or higher is generally considered a medical emergency.
@@ -186,6 +215,34 @@ Careful monitoring with complete blood counts (CBC) with differential is standar
 - Thrombocytopenia: Less commonly dose-limiting compared to neutropenia, but platelet counts should be carefully monitored prior to each cycle.
 
 Careful monitoring with complete blood counts (CBC) with differential is standard practice before administering subsequent cycles."
+Chemotherapy Side Effects,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",Why do my hands and feet tingle after receiving certain chemotherapies?,"Retrieved Medical Guidelines for Chemotherapy Side Effects: Tingling, numbness, or pain in the hands and feet is a condition called peripheral neuropathy. It is caused by certain chemotherapy drugs (like taxanes, platinums, and vinca alkaloids) damaging the peripheral nerves. To manage and monitor this:
+- Report any tingling, numbness, burning, or weakness to your oncologist immediately. They may need to adjust your chemo dose to prevent permanent damage.
+- Be very careful with sharp objects (like knives) and avoid walking barefoot to prevent injuries you might not feel.
+- Wear comfortable, well-fitting shoes.
+- Use gloves when handling cold objects if you are receiving drugs like oxaliplatin, which can cause severe cold sensitivity in the nerves.
+- Your doctor may prescribe medications (such as duloxetine or gabapentin) to help manage severe nerve pain.","Tingling, numbness, or pain in the hands and feet is a condition called peripheral neuropathy. It is caused by certain chemotherapy drugs (like taxanes, platinums, and vinca alkaloids) damaging the peripheral nerves. To manage and monitor this:
+- Report any tingling, numbness, burning, or weakness to your oncologist immediately. They may need to adjust your chemo dose to prevent permanent damage.
+- Be very careful with sharp objects (like knives) and avoid walking barefoot to prevent injuries you might not feel.
+- Wear comfortable, well-fitting shoes.
+- Use gloves when handling cold objects if you are receiving drugs like oxaliplatin, which can cause severe cold sensitivity in the nerves.
+- Your doctor may prescribe medications (such as duloxetine or gabapentin) to help manage severe nerve pain.
+
+*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
+Chemotherapy Side Effects,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",How can I treat mouth sores caused by my cancer treatment?,"Retrieved Medical Guidelines for Chemotherapy Side Effects: Mouth sores (mucositis) are a painful side effect of some chemotherapy and radiation treatments. To help manage and heal them:
+- Maintain excellent oral hygiene. Gently brush your teeth using a soft-bristled toothbrush after every meal and at bedtime.
+- Rinse your mouth 4 to 6 times a day with a mixture of baking soda and salt in warm water (1/4 tsp each in 8 oz water). Avoid mouthwashes containing alcohol.
+- Eat soft, bland, and moist foods (like mashed potatoes, scrambled eggs, or yogurt).
+- Avoid spicy, acidic, or very hot foods and drinks, as they can burn the sores.
+- Sucking on ice chips during the administration of certain chemotherapy drugs (like 5-FU) can sometimes help prevent mouth sores.
+- Ask your doctor for prescription 'magic mouthwash' to numb the pain before you eat.","Mouth sores (mucositis) are a painful side effect of some chemotherapy and radiation treatments. To help manage and heal them:
+- Maintain excellent oral hygiene. Gently brush your teeth using a soft-bristled toothbrush after every meal and at bedtime.
+- Rinse your mouth 4 to 6 times a day with a mixture of baking soda and salt in warm water (1/4 tsp each in 8 oz water). Avoid mouthwashes containing alcohol.
+- Eat soft, bland, and moist foods (like mashed potatoes, scrambled eggs, or yogurt).
+- Avoid spicy, acidic, or very hot foods and drinks, as they can burn the sores.
+- Sucking on ice chips during the administration of certain chemotherapy drugs (like 5-FU) can sometimes help prevent mouth sores.
+- Ask your doctor for prescription 'magic mouthwash' to numb the pain before you eat.
+
+*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
 Targeted Therapies and Immunotherapy,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",What are the common side effects of Darzalex (daratumumab)?,"Retrieved Medical Guidelines for Targeted Therapies and Immunotherapy: Darzalex (daratumumab) is a targeted therapy used primarily for multiple myeloma. Common side effects you might experience include:
 - Infusion-related reactions: These often happen during or shortly after the first infusion. Symptoms can include chills, fever, shortness of breath, and a runny or stuffy nose.
 - Fatigue or feeling unusually tired.
@@ -245,6 +302,48 @@ Early recognition and prompt immunosuppression are critical for resolving severe
 - **Grade 3/4:** Permanently discontinue the checkpoint inhibitor. Initiate high-dose systemic corticosteroids (e.g., methylprednisolone 1-2 mg/kg/day IV). If symptoms are refractory to steroids after 48-72 hours, consider secondary immunosuppressive agents (e.g., infliximab for colitis, mycophenolate mofetil for hepatitis).
 
 Early recognition and prompt immunosuppression are critical for resolving severe irAEs."
+Targeted Therapies and Immunotherapy,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",Why is my doctor testing my tumor for PD-L1 expression?,"Retrieved Medical Guidelines for Targeted Therapies and Immunotherapy: Testing a tumor for PD-L1 (Programmed Death-Ligand 1) expression helps your oncologist determine if you are a good candidate for certain types of immunotherapy called checkpoint inhibitors (such as Keytruda or Opdivo).
+- PD-L1 is a protein that some cancer cells use to 'hide' from your body's immune system.
+- If your tumor has high levels of PD-L1, it means the cancer is relying heavily on this 'hiding' mechanism.
+- Checkpoint inhibitor drugs work by blocking PD-L1, effectively exposing the cancer cells so your immune system can attack them.
+- Tumors with high PD-L1 expression generally respond better to these specific immunotherapies, allowing your doctor to tailor your treatment plan effectively.","Testing a tumor for PD-L1 (Programmed Death-Ligand 1) expression helps your oncologist determine if you are a good candidate for certain types of immunotherapy called checkpoint inhibitors (such as Keytruda or Opdivo).
+- PD-L1 is a protein that some cancer cells use to 'hide' from your body's immune system.
+- If your tumor has high levels of PD-L1, it means the cancer is relying heavily on this 'hiding' mechanism.
+- Checkpoint inhibitor drugs work by blocking PD-L1, effectively exposing the cancer cells so your immune system can attack them.
+- Tumors with high PD-L1 expression generally respond better to these specific immunotherapies, allowing your doctor to tailor your treatment plan effectively.
+
+*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
+Radiation Therapy,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",Does radiation therapy make me radioactive?,"Retrieved Medical Guidelines for Radiation Therapy: For the vast majority of external beam radiation treatments, the answer is no.
+- External beam radiation is like having an X-ray; the radiation passes through your body to target the tumor, but it does not stay inside you. You are perfectly safe to be around pregnant women and children immediately after your session.
+- However, if you are receiving internal radiation (brachytherapy) or systemic radiation (like radioactive iodine for thyroid cancer), radioactive materials are placed inside your body.
+- In those specific internal cases, your body may give off a small amount of radiation for a short time, and your medical team will give you specific safety precautions (like keeping a certain distance from others) until the radiation levels drop.","For the vast majority of external beam radiation treatments, the answer is no.
+- External beam radiation is like having an X-ray; the radiation passes through your body to target the tumor, but it does not stay inside you. You are perfectly safe to be around pregnant women and children immediately after your session.
+- However, if you are receiving internal radiation (brachytherapy) or systemic radiation (like radioactive iodine for thyroid cancer), radioactive materials are placed inside your body.
+- In those specific internal cases, your body may give off a small amount of radiation for a short time, and your medical team will give you specific safety precautions (like keeping a certain distance from others) until the radiation levels drop.
+
+*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
+Radiation Therapy,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",What skin changes should I expect during radiation therapy?,"Retrieved Medical Guidelines for Radiation Therapy: Radiation dermatitis is a common side effect where the skin in the treatment area becomes irritated. You may experience:
+- Redness, similar to a mild or severe sunburn.
+- Dryness, itching, and peeling (dry desquamation).
+- In more severe cases, the skin may blister or weep fluid (moist desquamation).
+- The treated skin may eventually become darker or tanned.
+
+To care for your skin, wash the area gently with warm water and mild, unscented soap. Pat dry, avoid tight clothing over the area, and only use lotions or creams (like Aquaphor or calendula cream) that are explicitly approved by your radiation oncologist.","Radiation dermatitis is a common side effect where the skin in the treatment area becomes irritated. You may experience:
+- Redness, similar to a mild or severe sunburn.
+- Dryness, itching, and peeling (dry desquamation).
+- In more severe cases, the skin may blister or weep fluid (moist desquamation).
+- The treated skin may eventually become darker or tanned.
+
+To care for your skin, wash the area gently with warm water and mild, unscented soap. Pat dry, avoid tight clothing over the area, and only use lotions or creams (like Aquaphor or calendula cream) that are explicitly approved by your radiation oncologist.
+
+*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
+Radiation Therapy,professional,"You are a specialized medical AI assistant designed for oncology professionals. Provide precise, comprehensive, and evidence-based answers using medical terminology based on the retrieved context.",What are the indications for stereotactic body radiation therapy (SBRT) in early-stage non-small cell lung cancer (NSCLC)?,"Retrieved Medical Guidelines for Radiation Therapy: SBRT (also known as SABR) is primarily indicated for patients with medically inoperable, early-stage (Stage I or node-negative Stage II) non-small cell lung cancer.
+- It is highly effective for peripheral tumors typically < 5 cm in diameter.
+- It delivers highly conformal, ablative doses of radiation in a hypofractionated schedule (typically 3 to 5 fractions).
+- SBRT has shown excellent local control rates (often >90% at 3 years) that rival surgical outcomes for this specific patient population, though it carries risks of radiation pneumonitis or chest wall toxicity depending on tumor location.","SBRT (also known as SABR) is primarily indicated for patients with medically inoperable, early-stage (Stage I or node-negative Stage II) non-small cell lung cancer.
+- It is highly effective for peripheral tumors typically < 5 cm in diameter.
+- It delivers highly conformal, ablative doses of radiation in a hypofractionated schedule (typically 3 to 5 fractions).
+- SBRT has shown excellent local control rates (often >90% at 3 years) that rival surgical outcomes for this specific patient population, though it carries risks of radiation pneumonitis or chest wall toxicity depending on tumor location."
 Nutrition and Diet during Treatment,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",What should I eat when I have no appetite due to radiation?,"Retrieved Medical Guidelines for Nutrition and Diet during Treatment: A loss of appetite is very common during radiation therapy. Maintaining your nutrition is vital for healing. Try these strategies:
 - Eat small, frequent snacks every 2-3 hours instead of trying to force large meals.
 - Focus on high-calorie and high-protein foods like nuts, cheese, Greek yogurt, and eggs.
@@ -341,5 +440,20 @@ Consider utilizing resources from hospital social workers or child life speciali
 - **Encourage questions:** Let them know it is okay to feel sad, angry, or scared, and that they can ask you anything.
 
 Consider utilizing resources from hospital social workers or child life specialists, who are trained to help families navigate these conversations.
+
+*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
+Emotional and Mental Support,patient,"You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'",I feel incredibly anxious before every scan (scanxiety). How can I cope?,"Retrieved Medical Guidelines for Emotional and Mental Support: 'Scanxiety'—the severe anxiety leading up to medical imaging and waiting for results—is a highly common and valid experience for cancer patients and survivors. Coping strategies include:
+- Communicate with your medical team. Ask exactly when and how you will receive your results so you aren't waiting by the phone unnecessarily.
+- Schedule scans early in the morning or early in the week to reduce the waiting time for results.
+- Bring a trusted friend or family member to the appointment for distraction and support.
+- Practice mindfulness, deep breathing exercises, or meditation in the waiting room.
+- Plan an enjoyable distraction or a small reward for immediately after the scan is completed.
+- Speak to a counselor or join a support group where you can share these feelings with others who understand exactly what you are going through.","'Scanxiety'—the severe anxiety leading up to medical imaging and waiting for results—is a highly common and valid experience for cancer patients and survivors. Coping strategies include:
+- Communicate with your medical team. Ask exactly when and how you will receive your results so you aren't waiting by the phone unnecessarily.
+- Schedule scans early in the morning or early in the week to reduce the waiting time for results.
+- Bring a trusted friend or family member to the appointment for distraction and support.
+- Practice mindfulness, deep breathing exercises, or meditation in the waiting room.
+- Plan an enjoyable distraction or a small reward for immediately after the scan is completed.
+- Speak to a counselor or join a support group where you can share these feelings with others who understand exactly what you are going through.
 
 *Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
