@@ -1,72 +1,9 @@
 import csv
 
-# Define Segments with High-Quality, Structured Answers
+# Define Unique Segments with High-Quality, Structured Answers
 segments = {
-    "Chemotherapy Side Effects": [
-        ("patient", "What should I do if I get a fever during my chemotherapy?",
-         "Experiencing a fever during chemotherapy can be a sign of a serious infection, especially if your white blood cell count is low (neutropenia). Here is what you should do:\n"
-         "- Check your temperature if you feel warm, chilled, or unwell.\n"
-         "- A temperature of 100.4°F (38°C) or higher is generally considered a medical emergency.\n"
-         "- Do not take fever-reducing medications like acetaminophen (Tylenol) or ibuprofen without speaking to your care team first, as they can mask the fever.\n"
-         "- Go to the nearest emergency room or contact your oncology clinic immediately for further instructions.\n\n"
-         "Because your immune system may be compromised, prompt medical evaluation and antibiotics are often critical."),
-
-        ("patient", "How can I manage nausea after my chemo session?",
-         "Nausea is a common side effect of chemotherapy, but there are several effective ways to manage it:\n"
-         "- Take prescribed anti-nausea medications exactly as directed, even if you don't feel sick yet (prevention is key).\n"
-         "- Eat small, frequent meals throughout the day rather than three large ones.\n"
-         "- Choose bland, easily digestible foods like crackers, toast, or clear broths.\n"
-         "- Avoid foods that are overly sweet, greasy, spicy, or have strong odors.\n"
-         "- Stay hydrated by sipping clear liquids like water, ginger ale, or electrolyte solutions slowly.\n"
-         "- Practice relaxation techniques like deep breathing or listening to calming music to help reduce anxiety-induced nausea.\n\n"
-         "If your nausea persists or you are unable to keep fluids down, contact your healthcare team."),
-
-        ("professional", "What are the common hematologic toxicities of AC (Adriamycin/Cytoxan) regimen?",
-         "The AC (doxorubicin/cyclophosphamide) regimen frequently causes significant hematologic toxicities. The most common include:\n"
-         "- Neutropenia: Often severe, with a typical nadir occurring between days 10 and 14 of the cycle. Prophylactic use of G-CSF (granulocyte colony-stimulating factor) is sometimes considered depending on the patient's overall risk profile.\n"
-         "- Anemia: Cumulative and may require red blood cell transfusions if symptomatic or if hemoglobin drops significantly.\n"
-         "- Thrombocytopenia: Less common to be dose-limiting compared to neutropenia, but platelet counts should be monitored prior to each cycle.\n\n"
-         "Careful monitoring with complete blood counts (CBC) with differential is standard practice before administering subsequent cycles.")
-    ],
-    "Targeted Therapies (e.g., Darzalex)": [
-        ("patient", "What are the common side effects of Darzalex (daratumumab)?",
-         "Darzalex (daratumumab) is a targeted therapy used primarily for multiple myeloma. Common side effects you might experience include:\n"
-         "- Infusion-related reactions: These often happen during or shortly after the first infusion. Symptoms can include chills, fever, shortness of breath, and a runny or stuffy nose.\n"
-         "- Fatigue or feeling unusually tired.\n"
-         "- Nausea and diarrhea.\n"
-         "- Upper respiratory tract infections, such as a cold or cough.\n"
-         "- Low blood cell counts, which may increase your risk of bleeding or infections.\n\n"
-         "Your healthcare team will give you pre-medications (like antihistamines and steroids) to help lower the risk of infusion reactions."),
-
-        ("professional", "What premedications are required before Darzalex infusion?",
-         "To minimize the risk of severe infusion-related reactions (IRRs) associated with daratumumab, standard premedication protocols are required. These typically include:\n"
-         "- An intravenous corticosteroid (e.g., methylprednisolone 100 mg for the first few infusions, tapering to a lower dose for subsequent doses).\n"
-         "- An oral or intravenous antipyretic (e.g., acetaminophen 650-1000 mg).\n"
-         "- An oral or intravenous antihistamine (e.g., diphenhydramine 25-50 mg).\n\n"
-         "Additionally, post-infusion medications (such as oral corticosteroids) may be administered on the days following the infusion to prevent delayed reactions, particularly in patients with a history of chronic obstructive pulmonary disease (COPD).")
-    ],
-    "Nutrition and Diet during Treatment": [
-        ("patient", "What should I eat when I have no appetite due to radiation?",
-         "A loss of appetite is very common during radiation therapy. Maintaining your nutrition is vital for healing. Try these strategies:\n"
-         "- Eat small, frequent snacks every 2-3 hours instead of trying to force large meals.\n"
-         "- Focus on high-calorie and high-protein foods like nuts, cheese, Greek yogurt, and eggs.\n"
-         "- Try drinking your calories if solid food is unappealing. Smoothies, milkshakes, and specialized nutritional supplement drinks can be easier to get down.\n"
-         "- Keep your favorite snacks visible and easily accessible.\n"
-         "- Eat in a pleasant, relaxing environment and try making meals a social activity.\n\n"
-         "If you continue to lose weight, ask to speak with an oncology dietitian for personalized advice."),
-
-        ("patient", "Are there any foods I should avoid during chemotherapy?",
-         "Because chemotherapy can lower your white blood cell count and weaken your immune system, food safety is very important. You should generally avoid:\n"
-         "- Raw or undercooked meat, poultry, and seafood (including sushi).\n"
-         "- Unpasteurized milk, cheese, and juices.\n"
-         "- Raw or undercooked eggs (such as in homemade mayonnaise or raw cookie dough).\n"
-         "- Unwashed fresh fruits and vegetables. Ensure you wash all produce thoroughly before eating.\n"
-         "- Deli meats or cold cuts unless they have been heated until steaming hot.\n"
-         "- Salad bars or buffets where food sits out for long periods.\n\n"
-         "Following strict food hygiene practices reduces your risk of foodborne illnesses while your immune system is compromised.")
-    ],
     "General Cancer Knowledge": [
-        ("patient", "what are the symptoms of cancer?",
+        ("patient", "What are the symptoms of cancer?",
          "The symptoms of cancer can vary depending on the type and stage of cancer. However, some common symptoms include:\n"
          "- Unexplained weight loss\n"
          "- Fatigue or weakness\n"
@@ -77,8 +14,7 @@ segments = {
          "- Changes in bowel or bladder habits\n"
          "- Shortness of breath or difficulty breathing\n"
          "- Unexplained loss of appetite or nausea\n\n"
-         "If you or someone you know is experiencing any of these symptoms, it is important to seek medical attention immediately."),
-
+         "If you or someone you know is experiencing any of these symptoms persistently, it is important to seek medical attention immediately."),
         ("patient", "How can I prevent cancer?",
          "There are several ways to reduce your risk of developing cancer:\n"
          "- Quit smoking and avoid secondhand smoke\n"
@@ -90,7 +26,6 @@ segments = {
          "- Get vaccinated for certain cancers, such as the human papillomavirus (HPV) vaccine\n"
          "- Practice sun protection and avoid excessive sun exposure\n\n"
          "It is also important to undergo regular cancer screenings, such as mammograms, colonoscopies, and prostate exams, as recommended by your healthcare provider."),
-
         ("patient", "What are the different types of cancer?",
          "There are over 100 different types of cancer, each with its own unique characteristics and treatment options. Some common types of cancer include:\n"
          "- Breast cancer\n"
@@ -101,22 +36,9 @@ segments = {
          "- Brain cancer\n"
          "- Leukemia\n\n"
          "Each type of cancer has its own risk factors, symptoms, and treatment options. It is important to consult with a healthcare professional for personalized information and guidance."),
-
         ("patient", "How long does cancer treatment typically take?",
          "The duration of cancer treatment can vary depending on the type and stage of cancer, as well as the individual's overall health and response to treatment. Some types of cancer may require surgery, chemotherapy, radiation therapy, or a combination of these treatments. The length of treatment can range from a few weeks to several months or even years.\n\n"
          "It is important to work closely with your healthcare team to determine the most appropriate treatment plan and to monitor your progress throughout the treatment process."),
-
-        ("patient", "How can I support someone who is undergoing cancer treatment?",
-         "Supporting someone who is undergoing cancer treatment can be a challenging but rewarding experience. Here are some ways to provide emotional and practical support:\n"
-         "- Listen without judgment\n"
-         "- Offer encouragement and positive words\n"
-         "- Be present and attentive\n"
-         "- Help with daily tasks and errands\n"
-         "- Encourage self-care and relaxation\n"
-         "- Provide emotional support and resources for coping with stress and anxiety\n"
-         "- Encourage regular check-ins with healthcare professionals\n\n"
-         "Remember, everyone's experience with cancer is unique, and it is essential to be patient, compassionate, and understanding."),
-
         ("patient", "How can I stay informed about cancer research and treatment advancements?",
          "Staying informed about cancer research and treatment advancements is crucial for individuals and their loved ones. Here are some ways to stay up-to-date:\n"
          "- Follow reputable cancer organizations and organizations dedicated to cancer research and advocacy\n"
@@ -125,44 +47,170 @@ segments = {
          "- Connect with healthcare professionals and researchers in the field\n"
          "- Participate in clinical trials and studies\n"
          "- Engage in online forums and social media communities\n\n"
-         "By staying informed, you can better understand the latest research and treatment options, and make informed decisions about your health and well-being.")
+         "By staying informed, you can better understand the latest research and treatment options, and make informed decisions about your health and well-being."),
+        ("professional", "What is the TNM staging system in oncology?",
+         "The TNM staging system is globally recognized for determining the extent of cancer spread. It evaluates three key components:\n"
+         "- **T (Tumor):** Refers to the size, extent, and invasion depth of the primary tumor (T1-T4, with T0 indicating no evidence of primary tumor, and Tis indicating carcinoma in situ).\n"
+         "- **N (Nodes):** Describes the degree of regional lymph node involvement (N0-N3, reflecting the number or location of affected nodes).\n"
+         "- **M (Metastasis):** Indicates whether distant metastasis is present (M0 means none, M1 means metastasis is present).\n\n"
+         "These values are combined to assign an overall stage grouping (Stage I through IV), which dictates the prognostic outlook and therapeutic strategy.")
+    ],
+    "Chemotherapy Side Effects": [
+        ("patient", "What should I do if I get a fever during my chemotherapy?",
+         "Experiencing a fever during chemotherapy can be a sign of a serious infection, especially if your white blood cell count is low (neutropenia). Here is what you should do:\n"
+         "- Check your temperature if you feel warm, chilled, or unwell.\n"
+         "- A temperature of 100.4°F (38°C) or higher is generally considered a medical emergency.\n"
+         "- Do not take fever-reducing medications like acetaminophen (Tylenol) or ibuprofen without speaking to your care team first, as they can mask the fever.\n"
+         "- Go to the nearest emergency room or contact your oncology clinic immediately for further instructions.\n\n"
+         "Because your immune system may be compromised, prompt medical evaluation and antibiotics are often critical."),
+        ("patient", "How can I manage nausea after my chemo session?",
+         "Nausea is a common side effect of chemotherapy, but there are several effective ways to manage it:\n"
+         "- Take prescribed anti-nausea medications exactly as directed, even if you don't feel sick yet (prevention is key).\n"
+         "- Eat small, frequent meals throughout the day rather than three large ones.\n"
+         "- Choose bland, easily digestible foods like crackers, toast, or clear broths.\n"
+         "- Avoid foods that are overly sweet, greasy, spicy, or have strong odors.\n"
+         "- Stay hydrated by sipping clear liquids like water, ginger ale, or electrolyte solutions slowly.\n"
+         "- Practice relaxation techniques like deep breathing or listening to calming music to help reduce anxiety-induced nausea.\n\n"
+         "If your nausea persists or you are unable to keep fluids down, contact your healthcare team."),
+        ("patient", "Will all chemotherapy cause me to lose my hair?",
+         "Not all chemotherapy causes hair loss (alopecia). Whether or not you lose your hair depends on the specific drugs you receive and their dosages. Some key points to consider:\n"
+         "- Certain drugs, like taxanes (e.g., paclitaxel) and anthracyclines (e.g., doxorubicin), are very likely to cause complete hair loss.\n"
+         "- Other drugs may cause only mild thinning, or no hair loss at all.\n"
+         "- Hair loss usually begins 1 to 3 weeks after your first treatment.\n"
+         "- Your hair will almost always grow back after treatment is completed, though it may be a different texture or color initially.\n"
+         "- Some clinics offer scalp cooling caps, which can reduce the risk of severe hair loss for certain regimens.\n\n"
+         "Ask your oncologist what to expect with your specific treatment protocol."),
+        ("patient", "What is 'chemo brain' and how can I manage it?",
+         "'Chemo brain' is a common term used by cancer survivors to describe thinking and memory problems that can occur during and after cancer treatment. Symptoms often include mental fogginess, difficulty concentrating, and trouble remembering details. Ways to manage this include:\n"
+         "- Use planners or smartphone apps to track daily tasks and appointments.\n"
+         "- Break complex tasks into smaller, manageable steps.\n"
+         "- Ensure you get adequate sleep and rest.\n"
+         "- Stay mentally active with puzzles, reading, or learning new skills.\n"
+         "- Engage in regular, light physical exercise to improve blood flow to the brain.\n"
+         "- Minimize distractions when focusing on important tasks.\n\n"
+         "If these cognitive changes severely impact your daily life, speak to your care team about potentially seeing a cognitive rehabilitation specialist."),
+        ("professional", "What are the common hematologic toxicities of the AC (Adriamycin/Cytoxan) regimen?",
+         "The AC (doxorubicin/cyclophosphamide) regimen frequently causes significant hematologic toxicities. The most common include:\n"
+         "- Neutropenia: Often severe, with a typical nadir occurring between days 10 and 14 of the cycle. Prophylactic use of G-CSF (granulocyte colony-stimulating factor) is often considered depending on the patient's overall risk profile and age.\n"
+         "- Anemia: Cumulative and may require red blood cell transfusions if symptomatic or if hemoglobin drops significantly.\n"
+         "- Thrombocytopenia: Less commonly dose-limiting compared to neutropenia, but platelet counts should be carefully monitored prior to each cycle.\n\n"
+         "Careful monitoring with complete blood counts (CBC) with differential is standard practice before administering subsequent cycles.")
+    ],
+    "Targeted Therapies and Immunotherapy": [
+        ("patient", "What are the common side effects of Darzalex (daratumumab)?",
+         "Darzalex (daratumumab) is a targeted therapy used primarily for multiple myeloma. Common side effects you might experience include:\n"
+         "- Infusion-related reactions: These often happen during or shortly after the first infusion. Symptoms can include chills, fever, shortness of breath, and a runny or stuffy nose.\n"
+         "- Fatigue or feeling unusually tired.\n"
+         "- Nausea and diarrhea.\n"
+         "- Upper respiratory tract infections, such as a cold or cough.\n"
+         "- Low blood cell counts, which may increase your risk of bleeding or infections.\n\n"
+         "Your healthcare team will give you pre-medications (like antihistamines and steroids) to help lower the risk of infusion reactions."),
+        ("patient", "What is the difference between chemotherapy and immunotherapy?",
+         "While both are treatments for cancer, they work in very different ways:\n"
+         "- **Chemotherapy** uses powerful drugs to directly attack and kill rapidly dividing cells in the body, which includes cancer cells but also healthy fast-growing cells (like hair follicles and the digestive tract lining), leading to traditional side effects like hair loss and nausea.\n"
+         "- **Immunotherapy** does not directly kill cancer cells. Instead, it boosts or trains your body's own immune system to recognize and attack the cancer cells more effectively.\n\n"
+         "Because they work differently, the side effects of immunotherapy are often different from chemotherapy, typically presenting as inflammatory or autoimmune-like reactions (e.g., skin rashes, colitis, or thyroid issues)."),
+        ("patient", "How is Herceptin (trastuzumab) different from standard chemotherapy for breast cancer?",
+         "Herceptin (trastuzumab) is a type of targeted therapy, not traditional chemotherapy. \n"
+         "- It is specifically designed to target breast cancer cells that overproduce a protein called HER2 (HER2-positive breast cancer).\n"
+         "- Because it targets specific cancer cells rather than all rapidly dividing cells, it typically does not cause hair loss or severe nausea like traditional chemotherapy.\n"
+         "- It is often given in combination with chemotherapy, but its primary unique risk is potential cardiac toxicity (weakening of the heart muscle). Therefore, your doctor will regularly monitor your heart function (e.g., with an echocardiogram) while you are on this medication."),
+        ("professional", "What premedications are required before Darzalex infusion?",
+         "To minimize the risk of severe infusion-related reactions (IRRs) associated with daratumumab, standard premedication protocols are required. These typically include:\n"
+         "- An intravenous corticosteroid (e.g., methylprednisolone 100 mg for the first few infusions, tapering to a lower dose for subsequent doses).\n"
+         "- An oral or intravenous antipyretic (e.g., acetaminophen 650-1000 mg).\n"
+         "- An oral or intravenous antihistamine (e.g., diphenhydramine 25-50 mg).\n\n"
+         "Additionally, post-infusion medications (such as oral corticosteroids) may be administered on the days following the infusion to prevent delayed reactions, particularly in patients with a history of chronic obstructive pulmonary disease (COPD)."),
+        ("professional", "How should immune-related adverse events (irAEs) from checkpoint inhibitors be managed?",
+         "Management of irAEs (such as pneumonitis, colitis, or hepatitis) secondary to PD-1/PD-L1 or CTLA-4 inhibitors relies on grading the severity of the toxicity according to CTCAE criteria:\n"
+         "- **Grade 1:** Generally, continue immunotherapy with close monitoring; symptomatic treatment may be provided.\n"
+         "- **Grade 2:** Withhold the checkpoint inhibitor. Initiate systemic corticosteroids (e.g., prednisone 0.5-1 mg/kg/day). Resume immunotherapy only when symptoms resolve to Grade 1 or less and steroids are tapered.\n"
+         "- **Grade 3/4:** Permanently discontinue the checkpoint inhibitor. Initiate high-dose systemic corticosteroids (e.g., methylprednisolone 1-2 mg/kg/day IV). If symptoms are refractory to steroids after 48-72 hours, consider secondary immunosuppressive agents (e.g., infliximab for colitis, mycophenolate mofetil for hepatitis).\n\n"
+         "Early recognition and prompt immunosuppression are critical for resolving severe irAEs.")
+    ],
+    "Nutrition and Diet during Treatment": [
+        ("patient", "What should I eat when I have no appetite due to radiation?",
+         "A loss of appetite is very common during radiation therapy. Maintaining your nutrition is vital for healing. Try these strategies:\n"
+         "- Eat small, frequent snacks every 2-3 hours instead of trying to force large meals.\n"
+         "- Focus on high-calorie and high-protein foods like nuts, cheese, Greek yogurt, and eggs.\n"
+         "- Try drinking your calories if solid food is unappealing. Smoothies, milkshakes, and specialized nutritional supplement drinks can be easier to get down.\n"
+         "- Keep your favorite snacks visible and easily accessible.\n"
+         "- Eat in a pleasant, relaxing environment and try making meals a social activity.\n\n"
+         "If you continue to lose weight, ask to speak with an oncology dietitian for personalized advice."),
+        ("patient", "Are there any foods I should avoid during chemotherapy?",
+         "Because chemotherapy can lower your white blood cell count and weaken your immune system, food safety is very important. You should generally avoid:\n"
+         "- Raw or undercooked meat, poultry, and seafood (including sushi).\n"
+         "- Unpasteurized milk, cheese, and juices.\n"
+         "- Raw or undercooked eggs (such as in homemade mayonnaise or raw cookie dough).\n"
+         "- Unwashed fresh fruits and vegetables. Ensure you wash all produce thoroughly before eating.\n"
+         "- Deli meats or cold cuts unless they have been heated until steaming hot.\n"
+         "- Salad bars or buffets where food sits out for long periods.\n\n"
+         "Following strict food hygiene practices reduces your risk of foodborne illnesses while your immune system is compromised."),
+        ("patient", "I have a metallic taste in my mouth from chemo. How can I make food taste better?",
+         "Changes in taste, often described as a metallic or bitter flavor, are common side effects of chemotherapy (dysgeusia). To improve the taste of food:\n"
+         "- Use plastic or bamboo utensils instead of metal silverware.\n"
+         "- Avoid eating out of canned containers; use glass or ceramic plates.\n"
+         "- Add tart flavors like lemon juice, vinegar, or citrus marinades to foods (unless you have mouth sores).\n"
+         "- Try using stronger seasonings and herbs, like garlic, onion, basil, or mint, to mask bitter flavors.\n"
+         "- Eat foods cold or at room temperature, as this can reduce strong odors and distinct flavors.\n"
+         "- Try sucking on sugar-free lemon drops or mints before meals to clear your palate."),
+        ("professional", "What are the indications for enteral nutrition in head and neck cancer patients undergoing chemoradiotherapy?",
+         "Patients undergoing concurrent chemoradiotherapy for advanced head and neck squamous cell carcinoma are at high risk for severe mucositis, dysphagia, and subsequent malnutrition. Indications for prophylactic or reactive enteral nutrition (typically via PEG tube) include:\n"
+         "- Prophylactic placement is recommended for patients expected to experience significant weight loss, those with pre-existing severe malnutrition (e.g., >10% weight loss in 6 months), or those presenting with significant baseline dysphagia.\n"
+         "- Reactive placement is indicated if oral intake becomes inadequate to maintain hydration and nutrition despite aggressive oral supplementation and symptom management (e.g., resulting in >5% weight loss during treatment).\n\n"
+         "Early involvement of a registered dietitian and speech-language pathologist is standard of care.")
+    ],
+    "Emotional and Mental Support": [
+        ("patient", "How can I support someone who is undergoing cancer treatment?",
+         "Supporting someone who is undergoing cancer treatment can be a challenging but rewarding experience. Here are some ways to provide emotional and practical support:\n"
+         "- Listen without judgment\n"
+         "- Offer encouragement and positive words\n"
+         "- Be present and attentive\n"
+         "- Help with daily tasks and errands (be specific, e.g., 'Can I bring dinner on Tuesday?' instead of 'Let me know if you need help')\n"
+         "- Encourage self-care and relaxation\n"
+         "- Provide emotional support and resources for coping with stress and anxiety\n"
+         "- Encourage regular check-ins with healthcare professionals\n\n"
+         "Remember, everyone's experience with cancer is unique, and it is essential to be patient, compassionate, and understanding."),
+        ("patient", "How do I talk to my children about my cancer diagnosis?",
+         "Discussing a cancer diagnosis with children is incredibly difficult, but honesty is usually the best approach. Here are some guidelines:\n"
+         "- **Be age-appropriate:** Use simple, clear language for younger children, while older children and teens can handle more detailed medical information.\n"
+         "- **Use the word 'cancer':** Avoid vague terms like 'sick,' which can make children fear that normal illnesses (like a cold) are dangerous.\n"
+         "- **Reassure them:** Children often worry that they caused the illness or that they can 'catch' it. Clarify that cancer is not contagious and it is not their fault.\n"
+         "- **Explain the treatment plan:** Let them know what to expect regarding physical changes (like hair loss or fatigue) or disruptions to their daily routine.\n"
+         "- **Encourage questions:** Let them know it is okay to feel sad, angry, or scared, and that they can ask you anything.\n\n"
+         "Consider utilizing resources from hospital social workers or child life specialists, who are trained to help families navigate these conversations.")
     ]
 }
 
 system_prompt_patient = "You are a helpful, highly educated, and empathetic medical AI assistant. Provide detailed, structured, and informative answers using formatting like bullet points when appropriate. Always append this disclaimer at the very end of your answer: 'I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.'"
 system_prompt_professional = "You are a specialized medical AI assistant designed for oncology professionals. Provide precise, comprehensive, and evidence-based answers using medical terminology based on the retrieved context."
 
-def generate_dataset(num_samples=500, filename="oncology_qa_dataset.csv"):
+def generate_dataset(filename="oncology_qa_dataset.csv"):
     with open(filename, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(["Segment", "Target Audience", "System Prompt", "User Question", "Simulated RAG Context", "Ideal Assistant Response"])
 
         questions_generated = 0
-        while questions_generated < num_samples:
-            for segment_name, qa_list in segments.items():
-                if questions_generated >= num_samples:
-                    break
 
-                for audience, question, base_answer in qa_list:
-                    if questions_generated >= num_samples:
-                        break
+        # Iterate over the unique dictionary exactly once
+        for segment_name, qa_list in segments.items():
+            for audience, question, base_answer in qa_list:
 
-                    sys_prompt = system_prompt_patient if audience == "patient" else system_prompt_professional
+                sys_prompt = system_prompt_patient if audience == "patient" else system_prompt_professional
 
-                    # Add safety guardrails to the base answer for patients
-                    if audience == "patient":
-                        final_answer = f"{base_answer}\n\n*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
-                    else:
-                        final_answer = base_answer
+                # Add safety guardrails to the base answer for patients
+                if audience == "patient":
+                    final_answer = f"{base_answer}\n\n*Disclaimer: I am an AI, not a doctor. Please consult your oncologist or healthcare provider for personalized medical advice.*"
+                else:
+                    final_answer = base_answer
 
-                    # For RAG context, we simulate a retrieved document that contains the exact high-quality answer
-                    simulated_context = f"Retrieved Medical Guidelines for {segment_name}: {base_answer}"
+                # For RAG context, we simulate a retrieved document that contains the exact high-quality answer
+                simulated_context = f"Retrieved Medical Guidelines for {segment_name}: {base_answer}"
 
-                    writer.writerow([segment_name, audience, sys_prompt, question, simulated_context, final_answer])
-                    questions_generated += 1
+                writer.writerow([segment_name, audience, sys_prompt, question, simulated_context, final_answer])
+                questions_generated += 1
 
-    print(f"Generated {questions_generated} highly detailed Q&A pairs in {filename}")
+    print(f"Generated {questions_generated} completely unique, high-quality Q&A pairs in {filename}")
 
 if __name__ == "__main__":
-    # Generate 500 samples
-    generate_dataset(500)
+    generate_dataset()
